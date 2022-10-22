@@ -17,7 +17,14 @@ namespace DavArtWEB.Controllers
         {
             return View();
         }
-
+        public IActionResult Shop() 
+        {
+            return View();
+        }
+        public IActionResult ProductSingle() 
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
